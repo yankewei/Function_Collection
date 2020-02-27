@@ -2,8 +2,8 @@
 
 ## Go
 <details>
-  <summary>getPaths(获取文件或者目录下的所有文件)</summary>
-  
+  <summary><b>getPaths</b></summary>
+  获取文件或者目录下的所有文件
   ```go
   func getPaths(fnames []string) (paths []string, haveFolder bool, err error) {
     haveFolder = false
